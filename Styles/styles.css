@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+body{
+    background-image: url(https://i.pinimg.com/736x/b6/33/3b/b6333b32cdd23b38c2761311917dfffa.jpg);
+    /*background-image: url(imagenes/top-view-slices-salami-pizza.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: none;
+    background-color: rgb(46, 45, 45);
+    font-family: 'Pacifico', cursive;
+    text-shadow: 4px 4px rgb(29, 16, 16);
+    font-weight: lighter;
+}
+
+
+h1 {
+    width: 100%;
+    font-family: 'Alex Brush', cursive;
+    font-size: 10em;
+    color: crimson;
+    text-shadow: 3px 3px  rgb(243, 239, 239,);
+    padding-left: 10%; 
+    margin: auto;   
+    margin-bottom: 0;
+
+}
+
+h2{
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 0px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.descripcion{
+    
+    width: 600px;
+    color:whitesmoke;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: none;
+    padding-left: 15%; 
+    justify-content: flex-start;
+}
+
+
+.caja_formulario{
+    display: flex;
+    width: 350px;
+    height: 500px;
+    margin-right: 10%;
+    background-color: rgba(29, 16, 16, 0.4);
+    border-radius: 20px;
+    display: block;
+    justify-content: flex-end;
+    
+}
+
+
+.caja_formulario h3{
+    margin: 0px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0%;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+
+.caja_formulario input{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin:10px;
+    border-radius: 20px;
+    width: 85%;
+}
+.caja_formulario .enviar{
+    width: max-content;
+    margin-left: 35%;
+    background-color: rgba(29, 16, 16, 0.8);
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+
+/*.caja_formulario .campo_medio{
+    
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    margin:none;
+    width: 100%;
+    height: 200px;
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    border-radius: 25px;
+}
+
+
+.botones{  
+    display: flex;
+    justify-content:space-around;
+    margin-top: 120px;
+    
+}
+button{
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    border-radius: 25px 0px 25px 0px ;
+    text-shadow: 1px 1px red;
+    background-color: rgba(29, 16, 16, 0.8);
+    margin-bottom: 50px;
+}
+
+footer .logo_inferior{
+    text-align: center;
+}
+
+
+footer .logo_inferior .logoInf{
+    color: crimson;
+    font-family: 'Alex Brush', cursive; 
+    text-shadow: 1px 1px whitesmoke;
+    font-size: 3.5rem;
+    margin:25px 10px 0px 10px;
+    
+
+}
+footer .logo_inferior .textoInf{
+    color: whitesmoke;
+    font-family: 'Pacifico', cursive;
+    margin: 0px;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+footer .caja_info {
+    text-align: center;
+    font-style: italic;
+    margin:40px;
+}
+footer .caja_horario{
+    text-align: center;
+    font-style: italic;
+    margin: 40px;
+}
